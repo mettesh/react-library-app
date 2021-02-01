@@ -3,6 +3,7 @@
   "plugins": ["prettier"],
   "rules": {
     "semi": 0,
+    "no-unused-vars": 1,
     "react/jsx-filename-extension": [
       "error",
       {
@@ -16,6 +17,7 @@
         "semi": true,
         "singleQuote": true,
         "jsxSingleQuote": false
+
       }
     ]
   }

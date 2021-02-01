@@ -25,3 +25,5 @@ yarn-error.log*
 
 # Sensitive data
 .env
+debug.log
+.eslintcache

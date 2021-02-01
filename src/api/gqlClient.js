@@ -22,7 +22,7 @@ const useApolloClient = () => {
 
   return new ApolloClient({
     // link: authLink.concat(link),
-    uri: `${process.env.API_URL}/graphql`,
+    uri: `${process.env.REACT_APP_API_URL}/graphql`,
     cache: new InMemoryCache(),
     connectToDevTools: true,
   });
